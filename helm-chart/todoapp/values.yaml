@@ -31,6 +31,7 @@ hpa:
 
 pv:
   capacity: 1Gi
+  hostPath: "/data"
 
 pvc:
   requestStorage: 1Gi

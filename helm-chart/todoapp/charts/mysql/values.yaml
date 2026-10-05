@@ -1,5 +1,8 @@
 namespace: todoapp
 
+serviceAccount:
+  name: mysql-sa
+
 replicaCount: 1
 
 image:
