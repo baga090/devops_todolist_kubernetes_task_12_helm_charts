@@ -12,7 +12,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 sleep 15
 
 echo
-helm upgrade --install todoapp ./helm-chart/todoapp --namespace todoapp --create-namespace
+helm upgrade --install todoapp .infrastructure/helm-chart/todoapp --namespace todoapp --create-namespace
 
 echo
 kubectl apply -f .infrastructure/ingress/ingress.yml
